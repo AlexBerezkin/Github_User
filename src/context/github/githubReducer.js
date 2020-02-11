@@ -4,7 +4,6 @@ import {
   CLEAR_USERS,
   GET_USER,
   GET_REPOS,
-  SEARCH_USER
 } from "../types";
 
 export default (state, action) => {
