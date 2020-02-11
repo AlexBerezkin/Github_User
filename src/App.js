@@ -16,7 +16,7 @@ const App = () => {
   return (
     <GithubState>
       <AlertState>
-        <Router>
+        <Router basename={window.location.pathname || ''}>
           <div className="App">
             <Navbar />
             <div className="container">
